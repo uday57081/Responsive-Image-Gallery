@@ -1,0 +1,43 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------< com.imagegallery:image-gallery >-------------------
+[INFO] Building image-gallery 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.3.2:clean (default-clean) @ image-gallery ---
+[INFO] Deleting C:\Users\Uday\OneDrive\Desktop\image gallery\image-gallery\target
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ image-gallery ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 3 resources from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ image-gallery ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 6 source files with javac [debug parameters release 17] to target\classes
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ image-gallery ---
+[INFO] skip non existing resourceDirectory C:\Users\Uday\OneDrive\Desktop\image gallery\image-gallery\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ image-gallery ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- surefire:3.2.5:test (default-test) @ image-gallery ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- jar:3.4.2:jar (default-jar) @ image-gallery ---
+[INFO] Building jar: C:\Users\Uday\OneDrive\Desktop\image gallery\image-gallery\target\image-gallery-0.0.1-SNAPSHOT.jar
+[INFO] 
+[INFO] --- spring-boot:3.3.2:repackage (repackage) @ image-gallery ---
+[INFO] Replacing main artifact C:\Users\Uday\OneDrive\Desktop\image gallery\image-gallery\target\image-gallery-0.0.1-SNAPSHOT.jar with repackaged archive, adding nested dependencies in BOOT-INF/.
+[INFO] The original artifact has been renamed to C:\Users\Uday\OneDrive\Desktop\image gallery\image-gallery\target\image-gallery-0.0.1-SNAPSHOT.jar.original
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ image-gallery ---
+[INFO] Installing C:\Users\Uday\OneDrive\Desktop\image gallery\image-gallery\pom.xml to C:\Users\Uday\.m2\repository\com\imagegallery\image-gallery\0.0.1-SNAPSHOT\image-gallery-0.0.1-SNAPSHOT.pom
+[INFO] Installing C:\Users\Uday\OneDrive\Desktop\image gallery\image-gallery\target\image-gallery-0.0.1-SNAPSHOT.jar to C:\Users\Uday\.m2\repository\com\imagegallery\image-gallery\0.0.1-SNAPSHOT\image-gallery-0.0.1-SNAPSHOT.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  37.967 s
+[INFO] Finished at: 2026-07-15T22:18:59+05:30
+[INFO] ------------------------------------------------------------------------

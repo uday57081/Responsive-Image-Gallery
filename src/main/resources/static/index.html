@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lumina Gallery - Explore Beautiful Moments</title>
+    <link rel="stylesheet" href="/css/style.css" />
+</head>
+<body>
+    <div class="page-shell">
+        <header class="hero">
+            <div class="hero__text">
+                <p class="eyebrow">Curated Showcase</p>
+                <h1>LUMINA GALLERY</h1>
+                <p class="subtitle">Explore Beautiful Moments</p>
+            </div>
+        </header>
+
+        <main>
+            <section class="toolbar" aria-label="Gallery categories">
+                <div class="filter-group" id="category-filters"></div>
+            </section>
+
+            <section class="gallery-section">
+                <div id="loading" class="status-message" aria-live="polite">Loading gallery...</div>
+                <div id="error-message" class="status-message error hidden" aria-live="assertive"></div>
+                <div id="empty-message" class="status-message hidden" aria-live="polite">No images found for this category.</div>
+                <div id="gallery" class="gallery-grid" aria-live="polite"></div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <p>&copy; 2026 Lumina Gallery. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <div id="lightbox" class="lightbox hidden" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Image preview">
+        <div class="lightbox__backdrop" id="lightbox-backdrop"></div>
+        <div class="lightbox__content">
+            <button class="lightbox__close" id="close-lightbox" aria-label="Close image preview">×</button>
+            <button class="lightbox__nav lightbox__nav--prev" id="prev-image" aria-label="Previous image">‹</button>
+            <div class="lightbox__image-wrap">
+                <img id="lightbox-image" src="" alt="Selected gallery image" />
+            </div>
+            <button class="lightbox__nav lightbox__nav--next" id="next-image" aria-label="Next image">›</button>
+            <div class="lightbox__details">
+                <h2 id="lightbox-title"></h2>
+                <p id="lightbox-category"></p>
+                <p id="lightbox-description"></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="/js/script.js"></script>
+</body>
+</html>
+
